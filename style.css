@@ -1,0 +1,63 @@
+.containers{
+    width: 70% !important;
+    margin: auto;
+}
+body{
+    height: 300vh;
+}
+
+.bg-exxen{
+    background-color: #ffcb04;
+}
+.text-exxen{
+    color: #ffcb04 !important;
+}
+.select-boyut{
+    width: 65px;
+}
+.konumlandir{
+    top: 13px;
+}
+
+input::placeholder{
+    font-weight: bold;
+    color: black;
+}
+section .boyutlandır{
+    height: 50px;
+}
+.boyutlandır:focus{
+    outline: 2px solid #ffcb04;
+
+}
+.select-boyut{
+    height: 41px !important;
+}
+.position-responsive{
+    position: sticky !important;
+    top: 0;
+}
+
+.download{
+    height: 40px;
+}
+.icon-size{
+    width: 25px;
+    height: 25px;
+}
+
+@media (max-width:992px){
+    .position-responsive{
+        position: static !important;
+    } 
+}
+@media (max-width:600px){
+    .containers{
+        width: 100% !important;
+    }
+}
+@media (max-width:450px){
+    .logo{
+        width: 200px;
+    }
+}
